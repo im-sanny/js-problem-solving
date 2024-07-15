@@ -17,3 +17,20 @@ function isLeapYear(year) {
   }
 }
 isLeapYear(2034);
+
+// vowel count
+const vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+function countVowels(sentence) {
+  let count = 0;
+  const latter = Array.from(sentence);
+  latter.forEach(function (value) {
+    if (vowel.includes(value)) {
+      count++;
+    }
+  });
+  return count;
+  // Blue Neutral Simple Minimalist Professional Web Developer Resume
+}
+
+console.log(countVowels("I am going to watch football match today"));
