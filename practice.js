@@ -30,7 +30,18 @@ function countVowels(sentence) {
     }
   });
   return count;
-  // Blue Neutral Simple Minimalist Professional Web Developer Resume
 }
 
 console.log(countVowels("I am going to watch football match today"));
+
+
+// get length of an array by using length method
+const numbers = [1, 2, 3, 4, 5, 6, 7];
+console.log(numbers.length);
+
+// array index method
+const aIndex = [34, 79, 93, 62, 663, 882, 3];
+console.log(aIndex[4]);
+
+aIndex[4] = 7777777;
+console.log(aIndex);
