@@ -5,3 +5,11 @@ const duplicate = numbers.filter(function (value, index, array) {
 });
 
 console.log(duplicate);
+
+
+const num  = [1, 2, 2, 3, 4, 5, 6, 5, 6, 7, 5, 3, 8, 9];
+
+const double = numbers.filter(function(value, index, array){
+  return array.indexOf(value) !== index;
+})
+console.log(double);
